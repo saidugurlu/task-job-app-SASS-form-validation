@@ -1,0 +1,22 @@
+[
+	{
+		"name": "get-in-it.de",
+		"url": "https://www.get-in-it.de/jobsuche"
+	},
+	{
+		"name": "4scotty.com",
+		"url": "https://static.4scotty.com/top-jobs"
+	},
+	{
+		"name": "monster.de",
+		"url": "https://www.monster.de/jobs/suche?q=React+Javascript&where=Berlin&page=1&so=m.s.sh"
+	},
+	{
+		"name": "germanystartupjobs.com",
+		"url": "https://germanystartupjobs.com/search-jobs/?search_keywords=javascript"
+	},
+	{
+		"name": "Berlin Startup Jobs",
+		"url": "https://berlinstartupjobs.com/skill-areas/javascript"
+	}
+]

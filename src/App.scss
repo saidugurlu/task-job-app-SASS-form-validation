@@ -1,0 +1,239 @@
+$color_skills: rgb(227, 231, 138);
+$fontSize_small: 1.1rem;
+$fontSize_medium: 1.5rem;
+$fontSize_large: 1.8rem;
+
+body {
+	background-color: #333;
+	padding: 0 30px;
+
+	.App {
+		font-size: 1.5rem;
+		color: #ccc;
+
+		h1 {
+			font-size: 2.3rem;
+		}
+
+		.buttonArea {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.jobs {
+			margin: 20px 0 0 0;
+		}
+
+		.job {
+			background-color: #222;
+			padding: 20px;
+			margin: 0 0 20px 0;
+
+			.header {
+				display: flex;
+				justify-content: space-between;
+
+				.position {
+					a {
+						color: rgb(177, 110, 33);
+					}
+				}
+
+				.status {
+					color: #ccc;
+					font-family: monospace;
+					font-size: 1.5rem;
+					background-color: #666;
+					border: 0;
+					border-radius: 5px;
+					padding: 5px 10px;
+					cursor: pointer;
+				}
+			}
+
+			.skills {
+				font-size: 1.2rem;
+				color: $color_skills;
+			}
+
+			.bulkText {
+				font-size: 0.9rem;
+			}
+
+			ul.skillDefinitions {
+				margin: 10px 0 0 0;
+
+				li {
+					font-size: 0.9rem;
+					color: $color_skills;
+				}
+			}
+		}
+
+		.job.send {
+			background-color: rgb(70, 72, 70);
+		}
+
+		.job.wait {
+			background-color: rgb(79, 79, 14);
+		}
+
+		.job.interview {
+			background-color: rgb(61, 22, 22);
+		}
+
+		.job.declined {
+			background-color: #000;
+
+			.position {
+				a {
+					color: #222;
+				}
+			}
+
+			.skills {
+				color: #222;
+			}
+		}
+
+		.job.accepted {
+			background-color: rgb(7, 85, 24);
+		}
+
+		ul.jobsList {
+			li {
+				a {
+					color: rgb(177, 110, 33);
+				}
+			}
+		}
+
+		form {
+			width: 600px;
+
+			.formMessage {
+				color: yellow;
+				margin: -20px 0 0 120px;
+			}
+
+			fieldset {
+				border: 1px solid #888;
+				border-radius: 5px;
+				padding: 20px;
+
+				legend {
+					font-size: 1.2rem;
+				}
+
+				.row {
+					display: flex;
+					align-content: start;
+					padding: 5px;
+
+					label {
+						&:after {
+							content: ':';
+						}
+
+						width: 115px;
+						margin: 0 0 10px 0;
+					}
+
+					input {
+						font-size: 1rem;
+						width: 300px;
+					}
+
+					.fieldNote {
+						font-size: 1rem;
+						margin: 7px 0 0 5px;
+						color: rgb(226, 194, 134);
+					}
+				}
+
+				.buttonRow {
+					display: flex;
+					justify-content: right;
+
+					button {
+						font-size: 1rem;
+						padding: 5px;
+					}
+				}
+			}
+		}
+
+		.page_addJob {
+			h3 {
+				margin: 20px 0 10px 0;
+			}
+
+			ul.jobSites {
+				margin: 0;
+
+				a {
+					color: rgb(149, 223, 149);
+				}
+			}
+
+			form {
+				.row {
+					margin: 0 0 0.5rem 0;
+
+					input {
+						display: block;
+						font-size: 1.4rem;
+					}
+
+					::placeholder {
+						color: #aaa;
+					}
+
+					div.info {
+						font-size: 0.9rem;
+						color: yellow;
+					}
+
+					.field_position {
+						width: 500px;
+					}
+
+					.field_url {
+						width: 800px;
+					}
+
+					.field_skills {
+						width: 800px;
+					}
+
+					.field_bulkText {
+						width: 800px;
+						height: 100px;
+						font-size: 1.2rem;
+					}
+				}
+
+				button {
+					font-size: 1.2rem;
+					margin: 10px 0 0 0;
+				}
+			}
+
+			.formData {
+				background: #444;
+				padding: 1px 10px;
+				margin: 20px 0 0 0;
+				font-size: 0.9rem;
+				color: rgb(185, 157, 86);
+
+				pre {
+					white-space: pre-wrap;
+					white-space: -moz-pre-wrap;
+					white-space: -pre-wrap;
+					white-space: -o-pre-wrap;
+					word-wrap: break-word;
+				}
+			}
+		}
+	}
+}
