@@ -1,5 +1,5 @@
-[
-    {
+{
+	"jobs": [ {
         "position": "Frontend Web Entwickler",
         "url": "https://berlinstartupjobs.com/engineering/frontend-web-entwickler-interhome-gmbh-part-of-hotelplan-group",
         "skills": "TypeScript, VueJS, NUXT, HTML, CSS, TailWind",
@@ -16,5 +16,25 @@
         "url": "https://berlinstartupjobs.com/engineering/full-stack-engineer-node-js-m-f-d-minddoc",
         "skills": "Node.js, JavaScript, Vue.js, React, Angular, Docker, Helm",
         "bulkText": "As a Full Stack Engineer (Node.js) (m/f/d) you… will work with a cross functional agile team on the backend systems that power our therapy platform which is one of the leading digital applications for guided and unguided treatment for mental health are somebody who is familiar with state of the art technology and development stack and best-practices, you have the option to contribute to the technology strategy and roadmap of the team significantly contribute with your day to day work and deliverables to the overall success of our therapy product and its user satisfaction (therapists, patients, patient management) contribute to an engineering culture where developers enjoy working and keep learning You have close contact with our product and QA team as well as our users (e.g, therapist) and help them troubleshoot, debug, and maintain a high quality of our product Your profil You have a track record in building web applications in agile environments.  +4 years experience with any enterprise technology like Javascript and Node.js or similar You have experience using any frontend frameworks like Vue.js, React or Angular You have experience in test-driven development – we work extensively with Jest to ensure we have 100% test coverage throughout You have very good knowledge of Git, development workflow automation and CI. Continuous Delivery is in our DNA.  You know how to use Docker for local development. Basic knowledge of Helm is a plus You have an appreciation for great user experience as much as for awesome tech architecture You are great at communicating with people, motivating everyone and getting the whole team on the same page Fluency in English, German is a plus.  As our products are used by patients with severe mental health diseases, we put a lot of emphasis into secure applications, documentation, verification, and validation to make sure our products are both: beneficial and safe at the same time. This comes with its own challenges for sure, but at the same time provides us the opportunity to deliver a product that really is meaningful, unique in the market and helps people (more than yet another food delivery service probably) The most important one: willingness to learn. We are constantly learning new things and we enjoy it a lot. We don’t expect to find people experienced in all of them. If you are excited about our tech-stack and you think you are a fast learner, do not hesitate to apply!  Our offer 30 vacation days (full-time) Working in a motivated, international team with offices in Berlin and Munich Unique combination of startup spirit and family business – flat hierarchies and direct decision-making processes Complimentary drinks and sponsored lunch Employee benefits at Schoen Clinic such as company pension schemes or discounts from over 600 different brands Rental options for company bikes"
-    }
-]
+    }],
+    "jobSites":[{
+		"name": "get-in-it.de",
+		"url": "https://www.get-in-it.de/jobsuche"
+	},
+	{
+		"name": "4scotty.com",
+		"url": "https://static.4scotty.com/top-jobs"
+	},
+	{
+		"name": "monster.de",
+		"url": "https://www.monster.de/jobs/suche?q=React+Javascript&where=Berlin&page=1&so=m.s.sh"
+	},
+	{
+		"name": "germanystartupjobs.com",
+		"url": "https://germanystartupjobs.com/search-jobs/?search_keywords=javascript"
+	},
+	{
+		"name": "Berlin Startup Jobs",
+		"url": "https://berlinstartupjobs.com/skill-areas/javascript"
+	}]
+}

@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
-import jobSites from '../data/jobSites.json';
+import db from '../data/db.json';
+
+const jobSites = db.jobSites
 
 export const AddJob = () => {
 	const [formData, setFormData] = useState({});
