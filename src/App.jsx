@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './App.scss';
+import './styles/App.scss';
 import _jobs from './data/jobs.json';
 import { JobsFull } from './components/JobsFull';
 import { JobsList } from './components/JobsList';
